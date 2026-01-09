@@ -1,0 +1,37 @@
+   0.099953400s  INFO prepare_target{force=false package_id=stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min) target="stm32g474-rs_min"}: cargo::core::compiler::fingerprint: stale: changed "C:\\Users\\EricStiers\\rust\\stm32g474\\stm32g474_min\\build.rs"
+   0.099996300s  INFO prepare_target{force=false package_id=stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min) target="stm32g474-rs_min"}: cargo::core::compiler::fingerprint:           (vs) "C:\\Users\\EricStiers\\rust\\stm32g474\\stm32g474_min\\target\\debug\\.fingerprint\\stm32g474_min-6400644f65313de8\\dep-build-script-build-script-build"
+   0.100003300s  INFO prepare_target{force=false package_id=stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min) target="stm32g474-rs_min"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13412394860, nanos: 308318600 } < FileTime { seconds: 13412394862, nanos: 40136300 }
+   0.102249300s  INFO prepare_target{force=false package_id=stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min) target="stm32g474-rs_min"}: cargo::core::compiler::fingerprint: fingerprint error for stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min)/Check { test: false }/TargetInner { name: "stm32g474-rs_min", tested: false, benched: false, doc: true, ..: with_path("C:\\Users\\EricStiers\\rust\\stm32g474\\stm32g474_min\\src\\main.rs", Edition2024) }
+   0.102292200s  INFO prepare_target{force=false package_id=stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min) target="stm32g474-rs_min"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\EricStiers\rust\stm32g474\stm32g474_min\target\thumbv7em-none-eabihf\debug\.fingerprint\stm32g474_min-d2ba79d1452ab221\bin-stm32g474-rs_min`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.115205300s  INFO prepare_target{force=false package_id=stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min) target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint dirty for stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min)/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\EricStiers\\rust\\stm32g474\\stm32g474_min\\build.rs", Edition2024) }
+   0.115229200s  INFO prepare_target{force=false package_id=stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min) target="build-script-build"}: cargo::core::compiler::fingerprint:     dirty: PrecalculatedComponentsChanged { old: "13412394773.980861600s (Cargo.lock)", new: "13412394862.040136300s (build.rs)" }
+   0.115654300s  INFO prepare_target{force=false package_id=stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min) target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint dirty for stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min)/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\EricStiers\\rust\\stm32g474\\stm32g474_min\\build.rs", Edition2024) }
+   0.115670100s  INFO prepare_target{force=false package_id=stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min) target="build-script-build"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\Users\\EricStiers\\rust\\stm32g474\\stm32g474_min\\target\\debug\\.fingerprint\\stm32g474_min-6400644f65313de8\\dep-build-script-build-script-build", reference_mtime: FileTime { seconds: 13412394860, nanos: 308318600 }, stale: "C:\\Users\\EricStiers\\rust\\stm32g474\\stm32g474_min\\build.rs", stale_mtime: FileTime { seconds: 13412394862, nanos: 40136300 } }))
+   Compiling stm32g474_min v0.1.0 (C:\Users\EricStiers\rust\stm32g474\stm32g474_min)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.64s

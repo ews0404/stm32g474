@@ -1,0 +1,17 @@
+[package]
+name = "stm32g474_min"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.5"
+stm32g4xx-hal = { version = "0.0.1", features = ["stm32g474"] }
+
+# needed to get rid of "can't find crate for `test`" message
+[[bin]]
+name = "stm32g474-rs_min"
+path = "src/main.rs"
+test = false
+doctest = false
+bench = false

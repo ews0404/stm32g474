@@ -1,0 +1,3 @@
+cargo:rustc-link-search=C:\Users\EricStiers\rust\stm32g474\stm32g474_min\target\thumbv7em-none-eabihf\release\build\stm32g4-2e574add05a3330c\out
+cargo:rerun-if-changed=src/stm32g474/device.x
+cargo:rerun-if-changed=build.rs
